@@ -1,4 +1,4 @@
-Adventure game themed survey
+Adventure game survey
 =====
 
 Demo
