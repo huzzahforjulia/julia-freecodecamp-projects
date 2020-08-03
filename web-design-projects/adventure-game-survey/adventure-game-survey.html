@@ -1,0 +1,162 @@
+<header>
+  <h1 id="title">
+    New Game
+  </h1>
+
+  <p id="description">
+    Traveller! Tell me, what is your name? What brings you here?
+  </p>
+</header>
+
+<form id="survey-form" action="GAME OVER!!!">
+
+  <label id="name-label">
+    Name:
+  </label>
+  <br>
+  <input type="text" 
+         id="name"
+         placeholder="Enter your name..." required>
+  <br><br>
+
+  <label id="email-label">
+    Email:
+  </label>
+  <br>
+  <input type="email"
+         id="email"
+         placeholder="Enter your email..." required>
+  <br><br>
+
+  <label id="number-label">
+    Level:
+  </label>
+  <br>
+  <input type="number"
+         min="1"
+         max="20"
+         id="number"
+         placeholder="1" required>
+  <br><br>
+
+  <label id="dropdown-label">
+    Class:
+  </label>
+  <select id="dropdown">
+    <option>Tactician</option>
+    <option>Paladin</option>
+    <option>Swordmaster</option>
+    <option>Archer</option>
+    <option>Mage</option>
+    <option>Cleric</option>
+    <option>Wyvern rider</option>
+    <option>Pegasus knight</option>
+    <option>Manakete</option>
+    <option>Trickster</option>
+  </select>
+  <br><br>
+
+  <label id="radio-label">
+    Boon:
+  </label>
+  <br>
+  <label for="Robust"> 
+    <input value="Robust" type="radio" name="boon">Robust 
+  </label>
+  <br>
+  <label> 
+    <input value="Strong" type="radio" name="boon">Strong
+  </label>
+  <br>
+  <label> 
+    <input value="Clever" type="radio" name="boon">Clever
+  </label>
+  <br>
+  <label> 
+    <input value="Deft" type="radio" name="boon">Deft
+  </label>
+  <br>
+  <label> 
+    <input value="Quick" type="radio" name="boon">Quick
+  </label>
+  <br>
+  <label> 
+    <input value="Lucky" type="radio" name="boon">Lucky
+  </label>
+  <br>
+  <label> 
+    <input value="Sturdy" type="radio" name="boon">Sturdy
+  </label>
+  <br>
+  <label> 
+    <input value="Calm" type="radio" name="boon">Calm
+  </label>
+  <br><br>
+
+  <label id="radio-label">
+    Bane:
+  </label>
+  <br>
+  <label> 
+    <input value="Sickly" type="radio" name="bane">Sickly 
+  </label>
+  <br>
+  <label> 
+    <input value="Weak" type="radio" name="bane">Weak
+  </label>
+  <br>
+  <label> 
+    <input value="Dull" type="radio" name="bane">Dull
+  </label>
+  <br>
+  <label> 
+    <input value="Clumsy" type="radio" name="bane">Clumsy
+  </label>
+  <br>
+  <label> 
+    <input value="Slow" type="radio" name="bane">Slow
+  </label>
+  <br>
+  <label> 
+    <input value="Unlucky" type="radio" name="bane">Unlucky
+  </label>
+  <br>
+  <label> 
+    <input value="Fragile" type="radio" name="bane">Fragile
+  </label>
+  <br>
+  <label> 
+    <input value="Excitable" type="radio" name="bane">Excitable
+  </label>
+  <br><br>
+
+  <label id="checkbox-label">
+    Weapon: 
+  </label>
+  <br>
+  <label><input value="Sword" type="checkbox" name="weapon">Sword</label>
+  <br>
+  <label><input value="Lance" type="checkbox" name="weapon">Lance</label>
+  <br>
+  <label><input value="Axe" type="checkbox" name="weapon">Axe</label>
+  <br>
+  <label><input value="Bow" type="checkbox" name="weapon">Bow</label>
+  <br>
+  <label><input value="Tome" type="checkbox" name="weapon">Tome</label>
+  <br>
+  <label><input value="Staff" type="checkbox" name="weapon">Staff</label>
+  <br><br>
+
+  <label id="textarea-label">
+    State your business!
+  </label>
+  <br>
+  <textarea placeholder="State your business...">
+  </textarea>
+  <br><br>
+
+  <button id="submit" type="submit">
+    Begin Adventure
+  </button>
+
+</form>
