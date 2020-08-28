@@ -1,5 +1,4 @@
 function telephoneCheck(str) {
-// Make this into a switch statement
   if(/^[0-9]{3}-[0-9]{3}-[0-9]{4}$/.test(str)) { // 555-555-5555
     return true;
   }
