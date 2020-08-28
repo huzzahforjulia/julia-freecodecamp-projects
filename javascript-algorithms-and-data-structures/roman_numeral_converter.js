@@ -23,6 +23,5 @@ function convertToRoman(num) {
       num -= numeralMap[numeral];
     }
   }
-  console.log(romanNumeral);
   return romanNumeral;
 }
